@@ -41,4 +41,7 @@ private:
 	
 	UPROPERTY(EditAnywhere, Category = "Combat")
 	float DamageAmount = 200.f;
+
+	UPROPERTY(EditAnywhere, Category = "Combat")
+	UParticleSystem* HitParticles;
 };
